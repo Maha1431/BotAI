@@ -114,9 +114,7 @@ onUpdateConversation(updatedConversation);
                   className="avatar"
                 />
                 <div className="data">
-                  <p>
-                    <span>{item}</span>
-                    </p>
+                  <p>{item}</p>
                   <span>{getCurrentTime()}</span>
                 </div>
               </Card>
@@ -124,11 +122,9 @@ onUpdateConversation(updatedConversation);
               <Card className="bot-message">
                 <img src={icon} alt="icon" className="icon1" />
                 <div className="data">
-                  <p>
-                    
-                    <span>{item}</span>
-                    </p>
-                  <span>{getCurrentTime()}
+                  <p>{item}</p>
+                  <span className="active">{getCurrentTime()}
+                  
                     <ThumbUpIcon
                       onClick={handleThumbsUpClick}
                       style={{ cursor: "pointer" }}

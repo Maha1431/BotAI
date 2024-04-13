@@ -67,22 +67,26 @@ function Dashboard() {
         <div className="content">
         <h3>How Can I Help You Today?</h3>
         <img src={icon} alt=""  className="icon1"/>
+        <div className='data-container'>
+        <div className="box-container">
         <div className="box">
-        <div>
           <h4>Hi, what is the weather</h4>
           <p className="para">Get immediate AI generated response</p>
         </div>
-        <div>
+        <div className="box">
           <h4>Hi, what is my location</h4>
           <p className="para">Get immediate AI generated response</p>
         </div>
-        <div>
+        </div>
+        <div className="box-container">
+        <div className="box">
           <h4>Hi, what is the temperature</h4>
           <p className="para">Get immediate AI generated response</p>
         </div>
-        <div>
+        <div className="box">
           <h4>Hi, how are you</h4>
           <p className="para">Get immediate AI generated response</p>
+        </div>
         </div>
         </div>
         </div>

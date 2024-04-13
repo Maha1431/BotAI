@@ -21,10 +21,7 @@ useEffect(() => {
     setRating(storedConversation.rating || 0);
   }, []);
 
-//    // Save conversation data to local storage whenever it changes
-//    useEffect(() => {
-//     const storedConversation = JSON.parse(localStorage.getItem("conversation")) || [];
-//   }, [])
+
 
   return (
     <div className="container">

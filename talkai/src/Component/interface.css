@@ -17,7 +17,7 @@ border-radius: 20px;
 }
 .conversation{
     width: 1280px;
-height: 820px;
+height: auto;
 background: linear-gradient(180deg, rgba(215, 199, 244, 0.2) 0%, rgba(151, 133, 186, 0.2) 100%);
 opacity: 0px;
 }
@@ -82,27 +82,27 @@ gap: 0px;
 opacity: 0px;
 border-radius: 30px;
 }
+.data-container {
+  display: flex;
+  flex-direction: column; /* Stack box containers vertically */ 
+  justify-content: space-evenly;
+  margin-bottom: 20px;/* Center box containers horizontally */
+}
+
+.box-container {
+  display: flex;
+  gap: 30px;
+}
+
 .box {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: space-between; /* Space items evenly along the main axis */
-    width: 1042px;
-    height: auto; /* Adjust height as needed */
-    gap: 20px; /* Add gap between items */
-    border-radius: 2px; /* Apply border radius */
-    opacity: 1; /* Show the box */
-    margin-top: 150px;
-  }
-  
-  .box > div {
-    width: calc(50% - 10px); /* Set the width of each div (50% - gap) */
-    background: #FFFFFF;
-    text-align: start;
-    margin-bottom: 20px; /* Add margin between rows */
-    padding: 20px; /* Add padding for content */
-    border-radius: 5px; /* Apply border radius */
-  }
-  
+  width: auto; /* Set the width of each box */
+  height: 140px; /* Set the height of each box */
+  margin: 10px; /* Add margin between boxes */
+  background-color: #FFFFFF; /* Background color for demonstration */
+  padding: 10px;
+}
+
+
   .para{
     color: #00000080;
   }
@@ -181,7 +181,7 @@ gap: 30px;
   
     .conversation {
       width: 1280px; /* Adjust conversation width */
-      height: 820px; /* Restore conversation height */
+      height: auto; /* Restore conversation height */
     }
   
     .content {
@@ -189,7 +189,7 @@ gap: 30px;
     }
   
     .box {
-      width: 1042px; /* Restore box width */
+      width: 500px; /* Restore box width */
       margin-top: 150px; /* Restore margin */
     }
   }

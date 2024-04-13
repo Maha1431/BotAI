@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Dashboard from './Component/Dashboard';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
+// import { ThemeProvider, createTheme } from '@mui/material/styles';
+// import CssBaseline from '@mui/material/CssBaseline';
 import React from 'react';
 import ConversationHistory from "./Component/conversationhistory";
 import ConversationPage from "./Component/conversation"

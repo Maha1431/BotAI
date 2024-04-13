@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import icon from "../assests/image 29.png";
 import chaticon from "../assests/image 31.png";
 import data from "../sampleData.json";

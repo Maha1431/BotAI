@@ -6,7 +6,6 @@ import "./feedback.css";
 import light from "../assests/image 34.png";
 import Avatar from "@mui/material/Avatar";
 import icon from "../assests/image 29.png";
-import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 
 function ConversationPage({ conversation, onSaveFeedback,  onUpdateConversation  }) {
@@ -71,9 +70,9 @@ onUpdateConversation(updatedConversation);
     setShowRatingBar(false);
     
   };
-  useEffect(() => {
-    localStorage.setItem("conversation", JSON.stringify(conversation));
-  }, [])
+  // useEffect(() => {
+  //   localStorage.setItem("conversation", JSON.stringify(conversation));
+  // }, [conversation])
 
   const handleThumbsUpClick = (index) => {
     setShowRatingBar(true);

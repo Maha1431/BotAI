@@ -42,9 +42,9 @@ function Dashboard() {
   const updateConversation = (updatedConversation) => {
     setConversation(updatedConversation);
   };
+ 
 
-
-  const handleclick =(e) => {
+  const handleclick =() => {
     navigate('/conversations');
   }
   return (
@@ -107,7 +107,7 @@ function Dashboard() {
             onChange={(e) => setMessage(e.target.value)}
            className='inputbox'
           />
-          <button type="submit" className="ask">Ask</button>
+          <button type="submit"  className="ask">Ask</button>
           <button className="save">Save</button>
         </form>
         
